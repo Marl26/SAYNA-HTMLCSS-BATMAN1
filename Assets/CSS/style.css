@@ -1,3 +1,9 @@
+@font-face{
+    font-family: 'rajdhani';
+    font-family: 'spaceGrotesk';
+    src: url(../police/Rajdhani-Medium.ttf);
+    src:url(../police/SpaceGrotesk-Medium.ttf)
+}
 
 
 :root{
