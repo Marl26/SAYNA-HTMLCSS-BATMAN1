@@ -229,6 +229,141 @@ nav ul a:hover{
 }
 
 #multimedia .slider-content{
-    padding:3%;
+    padding:2%;
     background-color: #b9b6b183;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#multimedia button{
+    position: relative;
+    top: 145px;
+    background: none;
+    border: none;
+}
+
+#multimedia p{
+    font-size: 14px;
+}
+
+#multimedia button.right{
+    right: -85%;
+}
+
+#multimedia  .yellow{
+    color: var(--yellow-color);
+}
+
+/*  design formulaire*/
+#contact{
+    background-color: darkslategray;
+    padding: 70px 0;
+}
+
+#contact .form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact h2{
+    text-align: center;
+    font-size:32px;
+    margin-bottom:32px;
+}
+
+#contact .titre{
+    display: block;
+    margin:28px 0 ;
+}
+
+#contact .form input[type='email'],textarea{
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 80%;
+    border-bottom: 2px solid rgb(120, 120,120);
+    background-color: transparent;
+    padding: 10px 0;
+}
+#contact .news{
+    margin: 15px 0;
+    border-bottom: 2px solid rgb(120, 120,120);
+}
+
+#contact .icon img{
+    transform: rotate(90deg);
+    width: 20px;
+}
+
+::placeholder{
+    color: #f0f0ee;
+    font-size:16px;
+
+}
+
+.btn-group{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.form input[type='radio']{
+    opacity: 0;
+}
+
+.btn-group label{
+    cursor: pointer;
+    border: 2px solid;
+    border-color: #19587d;
+    padding: 10px;
+    -o-border-image:linear-gradient(69deg, red, blue) 1;
+    border-image:linear-gradient(69deg, red, blue) 1;
+    font-size: 20px;
+}
+input[type='submit']{
+    display: block;
+    width: 230px;
+    margin: 25px auto;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#citations{
+    margin: 90px;
+}
+
+#citations .citations-carter{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#citations .citations-auteur{
+    padding-top: 30px;
+    font-size: 14px;
+    font-family: 'radjhani';
+}
+
+#citations .guillemet-close{
+    float: right;
+}
+
+footer{
+    margin-top: 162px;
+}
+
+footer .text-footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+footer .social-footer{
+    text-align: center;
+    margin: 50px;
+}
+
+footer .social-items{
+    padding: 13px;
 }
