@@ -36,6 +36,14 @@ body{
     font-family: 'Space-Grotesk';
     font-weight: 300;
 }
+
+.up-bar{
+    border-top: #72727272 2px solid;
+    position: relative;
+    top:132px;
+    width: 85%;
+   left: 102px;
+    }
 /* Design de la navigation*/
 nav {
     display: flex;
@@ -59,6 +67,12 @@ nav ul a{
 nav ul a:hover{
     color: var(--yellow-color);
 }
+
+nav .logo:hover{
+    -webkit-filter: invert(4%) sepia(86%) saturate(1650%) hue-rotate(352deg);
+            filter: invert(4%) sepia(86%) saturate(1650%) hue-rotate(352deg);;
+}
+
 
 /*Design de la partie hero */
 
